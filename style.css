@@ -193,6 +193,34 @@ h2 {
   color: #a0a8b0;
 }
 
+/* Hanging indent: wrapped lines align under the text, not the year. */
+.list-item.highlight,
+.list-item.presentations {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  line-height: 1.5em;
+}
+
+.list-item.highlight > p.date,
+.list-item.presentations > p.date {
+  flex: 0 0 3em;
+  width: 3em;
+  margin: 0;
+}
+
+.list-item.highlight > .entry,
+.list-item.presentations > .entry {
+  flex: 1;
+  min-width: 0;
+}
+
+.presentations .venue {
+  color: #a0a8b0;
+  font-style: italic;
+  margin-top: 0.15em;
+}
+
 /**************************************************/
 /* Gallery of 3 preview videos. */
 
@@ -309,7 +337,7 @@ h3 a:hover {
 /* Award tags (usable on research or presentations). */
 
 .award {
-  display: inline-block;
+  display: table;
   font-size: 0.8em;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -318,17 +346,8 @@ h3 a:hover {
   background: #f3ecd8;
   padding: 0.15em 0.5em;
   border-radius: 3px;
-  vertical-align: middle;
   white-space: nowrap;
-}
-
-.presentations .award {
-  margin-left: 0.4em;
-}
-
-.research .award,
-.publication .award {
-  margin-left: 0.5em;
+  margin-top: 0.35em;
 }
 
 /**************************************************/
