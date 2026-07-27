@@ -1,1 +1,12 @@
-This is the code for [Andy Zeng](https://andyzeng.github.io/)'s academic website. Notably, this uses [Isotope](https://isotope.metafizzy.co/) to create subpages, so you can get fancy with "sort by category" features if you want to. You can customize the `data-filter` and `data-category` fields, as well as Isotope parameters in the JS code at the bottom of `index.html`. Feel free to download this for your own personal use. Remember to delete the analytics tags at the top of `index.html` that you do not want on your own website. I'd appreciate a link back to my website. Inspired by [Jon's website](https://jonbarron.info/).
+# Personal Website
+
+Academic website for a robotics researcher at UC Berkeley.
+
+Design adapted from [Andy Zeng](https://andyzeng.github.io/)'s site (inspired by [Jon Barron](https://jonbarron.info/)). Uses [Isotope](https://isotope.metafizzy.co/) for filterable sections — customize `data-filter` / `data-category` and the JS at the bottom of `index.html`.
+
+## Getting started
+
+1. Replace `"Your Name"` and the bio / links / email in `index.html`.
+2. Add a profile photo at `images/profile.jpg`.
+3. Uncomment and fill in the example highlight, publication, talk, and misc items.
+4. Open `index.html` in a browser (or serve the folder with any static host).
