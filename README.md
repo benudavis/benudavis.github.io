@@ -1,6 +1,6 @@
 # Personal Website
 
-Academic website for a robotics researcher at UC Berkeley.
+Ben's personal website.
 
 Design adapted from [Andy Zeng](https://andyzeng.github.io/)'s site (inspired by [Jon Barron](https://jonbarron.info/)). Uses [Isotope](https://isotope.metafizzy.co/) for filterable sections — customize `data-filter` / `data-category` and the JS at the bottom of `index.html`.
 
