@@ -351,6 +351,10 @@ h3 a:hover {
   margin-top: 0.35em;
 }
 
+.award + .award {
+  margin-top: 0.25em;
+}
+
 /**************************************************/
 /* Subtle footer at the bottom of the page. */
 
